@@ -1,0 +1,86 @@
+body {
+  background-color: #444;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+#root {
+  width: max-content;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  box-shadow: 5px 5px 5px 0 #111;
+}
+
+input {
+  border: 1px solid #999;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #eee;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 14px;
+  margin-bottom: 20px;
+  width: 258px; 
+  text-align: end;
+}
+
+input:focus-visible {
+  outline: 2px solid #fff;
+}
+
+button {
+  width: 70px;
+  padding: 14px;
+  font-size: 18px;
+  background-color: #444;
+  border: 1px solid #444;
+  margin: 1px;
+  border-radius: 5px;
+  color: #eee;
+}
+button:hover {
+  background-color: #333;
+}
+button:active {
+  background-color: #292929;
+}
+
+button.buttonDark {
+  background-color: #333;
+  border: 1px solid #333;
+}
+button:hover.buttonDark {
+  background-color: #444;
+}
+button:active.buttonDark {
+  background-color: #333;
+}
+
+button.buttonEqual {
+  background-color: #00bfff;
+  border: 1px solid #00bfff;
+  color: #333
+}
+button:hover.buttonEqual {
+  background-color: #00b2ee;
+  border: 1px solid #00b2ee;
+  color: #444
+}
+button:active.buttonEqual {
+  background-color: #00a5dc;
+}
+
+button:focus-visible {
+  outline: 2px solid #fff;
+}
+
